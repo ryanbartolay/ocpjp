@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="chapter11"/>
+	<classpathentry kind="src" path="chapter12"/>
+	<classpathentry kind="src" path="chapter13"/>
+	<classpathentry kind="src" path="extra"/>
+	<classpathentry kind="src" path="chapter14"/>
+	<classpathentry kind="src" path="chapter15"/>
+	<classpathentry kind="src" path="chapter10"/>
+	<classpathentry kind="src" path="chapter07"/>
+	<classpathentry kind="src" path="chapter08"/>
+	<classpathentry kind="src" path="enthuware"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="lib/com.mysql.jdbc_5.1.5.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
