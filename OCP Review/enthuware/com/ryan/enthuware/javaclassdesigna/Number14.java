@@ -9,7 +9,7 @@ class AA implements Cloneable {
 }  
 
 class BB extends AA {
-	public int i = 20; 
+	public int i = 20;	
 }   
 
 public class Number14 {
@@ -17,7 +17,7 @@ public class Number14 {
 		BB b1 = new BB();
 		BB b2 = null;
 
-		// B b2 = (B)b1.clone(); // clone is a protected method
+		//B b2 = (B)b1.clone(); // clone is a protected method
 		System.out.println(b1==b2);
 		System.out.println(new java.util.Date().getTime());
 	} 
