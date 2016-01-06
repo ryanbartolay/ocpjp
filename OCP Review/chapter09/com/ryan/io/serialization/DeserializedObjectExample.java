@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.io.ObjectInput;
 import java.io.ObjectInputStream;
 
-public class DeserializedExample {
+public class DeserializedObjectExample {
 	public static void main(String[] args) {
 		File file = new File("Car.ser");
 		

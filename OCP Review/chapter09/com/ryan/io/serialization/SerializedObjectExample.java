@@ -8,7 +8,7 @@ import java.io.ObjectOutputStream;
 
 import com.ryan.enthuware.io2.Student;
 
-public class SerializedExample {
+public class SerializedObjectExample {
 	public static void main(String[] args) {
 		Car car = new Car();
 		car.setName("Honda");
