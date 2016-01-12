@@ -18,6 +18,6 @@ public class Number9 {
 		System.out.printf("%b", null); // only false and null can make %b false
 		System.out.println();
 		
-		System.out.printf("%f", flag);
+		System.out.printf("%f", flag); // %f expects only a decimal number thus will throw exception
 	}
 }
