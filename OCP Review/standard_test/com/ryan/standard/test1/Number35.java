@@ -1,9 +1,10 @@
 package com.ryan.standard.test1;
 
 public class Number35 extends Thread { 
+	Number35 n = new Number35();
 	static int x, y;
 	
-	public static synchronized void setX(int i) { 
+	public static synchronized void setX(int i) { 		
 		x++; 
 	} 
 	
@@ -21,7 +22,7 @@ public class Number35 extends Thread {
 	}
 	
 	public void run(){
-		setXY(1, 2); 
+		setXY(1, 2);
 		System.out.println(testXY()); 
 	} 
 	
