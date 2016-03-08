@@ -1,5 +1,6 @@
 package com.ryan.io.serialization;
 
+import java.io.File;
 import java.io.Serializable;
 
 enum CarTransmission {
@@ -11,6 +12,8 @@ public class Car implements Serializable {
 	private int max_seats;
 	private CarTransmission transmission;
 	public String getName() {
+		
+		File fi = new File("");		
 		return name;
 	}
 	public void setName(String name) {
