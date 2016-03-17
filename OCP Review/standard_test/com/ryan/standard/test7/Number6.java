@@ -7,12 +7,13 @@ import java.util.TreeSet;
 public class Number6 {
 	public static void main(String[] args) {
 		NavigableSet<String> myset = new TreeSet<>();
-		myset.add("a");
-		myset.add("b");
-		myset.add("c");
 		myset.add("aa");
 		myset.add("bb");
 		myset.add("cc");
+		myset.add("a");
+		myset.add("b");
+		myset.add("c");
+		
 		
 		Iterator<String>it = myset.iterator();
 		
@@ -21,8 +22,8 @@ public class Number6 {
 		}
 		
 		System.out.println();
-		System.out.println(myset.floor("a"));
-		System.out.println(myset.ceiling("aaa"));
+		System.out.println(myset.floor("abb")); // aa
+		System.out.println(myset.ceiling("bbb"));
 		System.out.println(myset.lower("a"));
 		System.out.println(myset.higher("bb"));
 	}
